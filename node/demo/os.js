@@ -12,3 +12,5 @@ console.log(chalk.blue('Свободная память: ', os.freemem()))
 console.log(chalk.blue('Всего памяти: ', os.totalmem()))
 
 console.log(chalk.red('домашняя директория: ', os.homedir()))
+
+
