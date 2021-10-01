@@ -13,4 +13,5 @@ console.log(chalk.blue('Всего памяти: ', os.totalmem()))
 
 console.log(chalk.red('домашняя директория: ', os.homedir()))
 
+console.log(chalk.green('Время включения: ', os.uptime()))
 
