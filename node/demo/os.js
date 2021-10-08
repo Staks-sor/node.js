@@ -1,17 +1,15 @@
 const os = require('os')
-const chalk = require('chalk')
 
-console.log(chalk.red('Операционаая система: ', os.platform()))
+console.log('Операционная система: ', os.platform())
 
-console.log(chalk.green('Архитектура процессора: ', os.arch()))
+console.log('Архитектура процессора: ', os.arch())
 
-console.log('Информация по процессорам: ', os.cpus())
+console.log('Инфа по процессорам: ', os.cpus())
 
-console.log(chalk.blue('Свободная память: ', os.freemem()))
+console.log('Свободная память: ', os.freemem())
 
-console.log(chalk.blue('Всего памяти: ', os.totalmem()))
+console.log('Всего памяти: ', os.totalmem())
 
-console.log(chalk.red('домашняя директория: ', os.homedir()))
+console.log('Домашняя директория: ', os.homedir())
 
-console.log(chalk.green('Время включения: ', os.uptime()))
-
+console.log('Влючен: ', os.uptime())

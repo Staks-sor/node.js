@@ -1,18 +1,22 @@
 {
-  "name": "node1",
+  "name": "node-youtube",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node JS Course for youtube",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "author": "Staks <stas.sor@gmail.com>",
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Vladilen Minin <vladilen@dev.com>",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2",
-    "events": "^3.3.0"
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^1.19.1"
   }
 }
